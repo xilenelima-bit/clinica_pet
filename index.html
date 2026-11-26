@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária Amigo Pet</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        img {
+            width: 20rem;
+            height: 20rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <div class="cartao"></div>
+        <h2><p>Cuide da saúde do seu melhor amigo com carinho.</p></h2>
+   
+   <div class="area-imagem"></div>
+ <img src="Pet.jpg" 
+ alt="Imagem de um balcão de um espaço pet, ao fundo uma parede de vidro com vista para rua."
+ class="foto-destaque">
+ <h2>Agendamento de Consulta</h2>
+   
+   <form>
+    
+        <p>
+          <label for="nome-tutor">Nome:</label>
+          <input type="text" id="nome-tutor" minlength="3" aria-describedby="dica-nome" placeholder="Digite o nome completo do responsável." required>
+        </p>
+        <p>
+          <label for="email-contato">Email:</label>
+          <input type="email" id="email-contato" placeholder="Digite seu email" required>
+        </p>
+        <h3>Marque a opção desejada:</h3>
+
+        <fieldset>
+          <legend>1. Espécie do Animal:</legend>
+          
+          <input type="radio" id="op1" name="favorito" value="opcao1">
+          <label for="op1">Cachorro</label><br>
+
+          <input type="radio" id="op2" name="favorito" value="opcao2">
+          <label for="op2">Gato</label>
+        </fieldset>
+        <fieldset>
+          <legend>2. Quais serviços?</legend>
+
+          <input type="checkbox" id="check1" name="interesses" value="item1">
+          <label for="check1">Vacinação </label><br>
+
+          <input type="checkbox" id="check2" name="interesses" value="item2">
+          <label for="check2">Banho e Tosa</label><br>
+   
+   </main>
+
+  <footer><strong><em>Clínica Amigo Pet - Atendimento Acessível 2026</em></strong></footer>  
+</body>
+</html>
